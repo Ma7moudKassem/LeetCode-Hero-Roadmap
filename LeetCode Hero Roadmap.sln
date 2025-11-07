@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2090. K Radius Subarray Ave
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1423. Maximum Points You Can Obtain from Cards", "1423. Maximum Points You Can Obtain from Cards\1423. Maximum Points You Can Obtain from Cards.csproj", "{4523A41D-1DAC-49A4-896C-7D05BA50D44F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238. Product of Array Except Self", "238. Product of Array Except Self\238. Product of Array Except Self.csproj", "{C7E45FED-4736-4E21-A0D3-450FA881278C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4523A41D-1DAC-49A4-896C-7D05BA50D44F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4523A41D-1DAC-49A4-896C-7D05BA50D44F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4523A41D-1DAC-49A4-896C-7D05BA50D44F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E45FED-4736-4E21-A0D3-450FA881278C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E45FED-4736-4E21-A0D3-450FA881278C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E45FED-4736-4E21-A0D3-450FA881278C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E45FED-4736-4E21-A0D3-450FA881278C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
