@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1423. Maximum Points You Ca
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "238. Product of Array Except Self", "238. Product of Array Except Self\238. Product of Array Except Self.csproj", "{C7E45FED-4736-4E21-A0D3-450FA881278C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "380. Insert Delete GetRandom O(1)", "380. Insert Delete GetRandom O(1)\380. Insert Delete GetRandom O(1).csproj", "{B0FF5507-F645-4078-9AC6-8A9791DF9A40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{C7E45FED-4736-4E21-A0D3-450FA881278C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7E45FED-4736-4E21-A0D3-450FA881278C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7E45FED-4736-4E21-A0D3-450FA881278C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FF5507-F645-4078-9AC6-8A9791DF9A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FF5507-F645-4078-9AC6-8A9791DF9A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FF5507-F645-4078-9AC6-8A9791DF9A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FF5507-F645-4078-9AC6-8A9791DF9A40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
