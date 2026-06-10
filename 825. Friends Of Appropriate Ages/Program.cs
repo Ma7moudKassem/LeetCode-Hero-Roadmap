@@ -1,41 +1,35 @@
 ﻿
-Console.WriteLine(NumFriendRequests([16, 17, 18]));
+Console.WriteLine(NumFriendRequests([20,30,100,110,120]));
 
 int NumFriendRequests(int[] ages)
 {
-    HashSet<int> senders = [];
-    HashSet<(int, int)> requests = [];
+    int count = 0;
 
-    int count = 1;
     for (int i = 0; i < ages.Length; i++)
     {
-        if (!senders.Add(i))
-            continue;
-
-        for (int j = i + 1; j < ages.Length; j++)
+        for (int j = 0; j < ages.Length; j++)
         {
-            int ageA = ages[i];
-            int ageB = ages[j];
-
-            if (!CanSendRequest(ageA, ageB) || !requests.Add((ageA, ageB)))
+            if (i == j)
                 continue;
 
-            count++;
+            if (CanSendRequest(ages[i], ages[j]))
+                count++;
         }
     }
 
     return count;
 }
 
-bool CanSendRequest(int ageA, int ageB)
+
+bool CanSendRequest(int ageX, int ageY)
 {
-    if (ageB <= 0.5 * ageA + 7)
+    if (ageY <= (0.5 * ageX + 7))
         return false;
 
-    if (ageB > ageA)
+    if (ageY > ageX)
         return false;
 
-    if (ageB > 100 && ageA < 100)
+    if (ageY > 100 && ageX < 100)
         return false;
 
     return true;
