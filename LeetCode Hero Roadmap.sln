@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "825. Friends Of Appropriate
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1015. Smallest Integer Divisible by K", "1015. Smallest Integer Divisible by K\1015. Smallest Integer Divisible by K.csproj", "{5E45B211-C7D3-43F1-9629-3BD12AE2450E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "217. Contains Duplicate", "217. Contains Duplicate\217. Contains Duplicate.csproj", "{5148EBD0-4C10-403E-9CE9-D645745176BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "242. Valid Anagram", "242. Valid Anagram\242. Valid Anagram.csproj", "{235996C8-58B2-4274-9626-46905901A5B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{5E45B211-C7D3-43F1-9629-3BD12AE2450E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E45B211-C7D3-43F1-9629-3BD12AE2450E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E45B211-C7D3-43F1-9629-3BD12AE2450E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5148EBD0-4C10-403E-9CE9-D645745176BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5148EBD0-4C10-403E-9CE9-D645745176BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5148EBD0-4C10-403E-9CE9-D645745176BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5148EBD0-4C10-403E-9CE9-D645745176BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{235996C8-58B2-4274-9626-46905901A5B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{235996C8-58B2-4274-9626-46905901A5B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{235996C8-58B2-4274-9626-46905901A5B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{235996C8-58B2-4274-9626-46905901A5B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
